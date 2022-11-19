@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -24,10 +25,6 @@
     <ProjectReference Include="..\PowerScribble.Api.Application\PowerScribble.Api.Application.csproj" />
     <ProjectReference Include="..\PowerScribble.Api.Infrastructure\PowerScribble.Api.Infrastructure.csproj" />
     <ProjectReference Include="..\PowerScribble.Api.Persistance\PowerScribble.Api.Persistance.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

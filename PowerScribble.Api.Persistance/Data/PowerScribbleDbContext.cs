@@ -24,6 +24,7 @@ namespace PowerScribble.Api.Persistance.Data
         public DbSet<AuthorType> AuthorTypes { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Page> Pages { get; set; }
 
         #endregion
 

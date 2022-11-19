@@ -1,5 +1,6 @@
 using MediatR;
 using PowerScribble.Api;
+using PowerScribble.Api.Application.Features.Books.Queries;
 using PowerScribble.Api.Application.Interfaces;
 using PowerScribble.Api.Persistance.Data;
 
@@ -18,7 +19,10 @@ builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddDbContext<PowerScribbleDbContext>();
 
 builder.Services.AddScoped<IAppContext, PowerScribble.Api.AppContext>();
+
+// MediatR
 builder.Services.AddSingleton(typeof(IPipelineBehavior<,>), typeof(PowerScribble.Api.Infrastructure.Behaviors.MediatR.LoggingBehavior<,>));
+builder.Services.AddMediatR(typeof(GetBooksQuery));
 
 var app = builder.Build();
 

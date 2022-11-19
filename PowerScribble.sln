@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerScribble.Api.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerScribble.Api.Persistance", "PowerScribble.Api.Persistance\PowerScribble.Api.Persistance.csproj", "{B80107EC-CDCC-405E-97B8-3F2A78823B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerScribble.Mobile", "PowerScribble.Clients\PowerScribble.Mobile\PowerScribble.Mobile.csproj", "{EC73F435-4576-43F7-B1A0-2D218D547676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerScribble.Mobile", "PowerScribble.Clients\PowerScribble.Mobile\PowerScribble.Mobile.csproj", "{EC73F435-4576-43F7-B1A0-2D218D547676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerScribble.SharedControls", "PowerScribble.SharedControls\PowerScribble.SharedControls.csproj", "{F2CA4983-BDB3-417A-9DDA-7F9017041487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,10 @@ Global
 		{EC73F435-4576-43F7-B1A0-2D218D547676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC73F435-4576-43F7-B1A0-2D218D547676}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC73F435-4576-43F7-B1A0-2D218D547676}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F2CA4983-BDB3-417A-9DDA-7F9017041487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CA4983-BDB3-417A-9DDA-7F9017041487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CA4983-BDB3-417A-9DDA-7F9017041487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CA4983-BDB3-417A-9DDA-7F9017041487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

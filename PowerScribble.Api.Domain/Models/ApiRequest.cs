@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PowerScribble.Api.Domain.Interfaces;
 
 namespace PowerScribble.Api.Domain.Models
 {
-    public class ApiRequest
+    public class ApiRequest : IModel
     {
         public bool Ok { get; set; } = false;
         public string Message { get; set; } = string.Empty;
